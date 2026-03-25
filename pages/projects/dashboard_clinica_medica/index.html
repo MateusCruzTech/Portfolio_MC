@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Clínica Médica · Power BI · Mateus Cruz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../global/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="/index.html" class="logo">Mateus <span>Cruz</span></a>
+        <nav>
+            <a href="../../main/index.html#sobre">Sobre</a>
+            <a href="../../main/index.html#formacao">Formação</a>
+            <a href="../../project_page/index.html">Projetos</a>
+            <a href="../../articles_page/index.html">Artigos</a>
+            <a href="../../main/index.html#cursos">Cursos</a>
+            <a href="../../main/index.html#apresentacao">Apresentação</a>
+            <a href="mailto:mateustechcruz@gmail.com" class="nav-cta">Contato</a>
+        </nav>
+        <div class="hamburger" id="hamburger" aria-label="Menu" role="button" tabindex="0">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav">
+        <a href="../../main/index.html#sobre">Sobre</a>
+        <a href="../../main/index.html#formacao">Formação</a>
+        <a href="../../project_page/index.html">Projetos</a>
+        <a href="../../articles_page/index.html">Artigos</a>
+        <a href="../../main/index.html#cursos">Cursos</a>
+        <a href="../../main/index.html#apresentacao">Apresentação</a>
+        <a href="mailto:mateustechcruz@gmail.com">Contato</a>
+    </nav>
+
+    <div class="breadcrumb">
+        <div class="breadcrumb-inner">
+            <a href="../../../index.html">Portfólio</a>
+            <span class="breadcrumb-sep">›</span>
+            <a href="../../project_page/index.html">Projetos</a>
+            <span class="breadcrumb-sep">›</span>
+            <span class="current">Dashboard Clínica Médica · Power BI</span>
+        </div>
+    </div>
+
+    <section class="project-hero">
+        <div class="project-hero-texture"></div>
+        <div class="project-hero-inner">
+
+            <div class="project-hero-left">
+                <div class="project-eyebrow">
+                    <span class="eyebrow-line"></span>
+                    Business Intelligence · Power BI · DAX
+                </div>
+
+                <h1 class="project-title">Dashboard Clínica Médica · <em>Análise de Atendimentos<br>com Power BI</em>
+                </h1>
+
+                <p class="project-subtitle">
+                    Painel interativo com 7.738 atendimentos simulados cobrindo receita, ticket médio,
+                    taxa de cancelamento e desempenho por médico, especialidade e procedimento.
+                </p>
+
+                <div class="project-links">
+                    <a href="#" target="_blank" rel="noopener" class="link-btn link-btn-primary">
+                        <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;">
+                            <path
+                                d="M11 2H4a1 1 0 0 0-1 1v18a1 1 0 0 0 1 1h7V2zm2 0v20h3V9h-1a1 1 0 0 1-1-1V2h-1zm4 0v5.17A2 2 0 0 0 18 9h1v13h1a1 1 0 0 0 1-1V6l-4-4z" />
+                        </svg>
+                        Ver Dashboard Online
+                    </a>
+                    <a href="https://github.com/MateusCruzTech" target="_blank" rel="noopener"
+                        class="link-btn link-btn-secondary">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/m/in/mateustechcruz" target="_blank" rel="noopener"
+                        class="link-btn link-btn-secondary">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-meta">
+                <div class="meta-block">
+                    <span class="meta-label">Período</span>
+                    <span class="meta-value">2026</span>
+                </div>
+                <div class="meta-block">
+                    <span class="meta-label">Status</span>
+                    <span class="meta-value">Concluído</span>
+                </div>
+                <div class="meta-block">
+                    <span class="meta-label">Stack Principal</span>
+                    <div class="meta-pills">
+                        <span class="meta-pill">Power BI Desktop</span>
+                        <span class="meta-pill">Power Query (M)</span>
+                        <span class="meta-pill">DAX</span>
+                        <span class="meta-pill">Microsoft Excel</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="cover-image-wrap reveal">
+        <div class="cover-image">
+            <!--<img src="" alt=""> -->
+            <span class="cover-placeholder-text">Power BI · Clínica</span>
+        </div>
+    </div>
+
+    <div class="content-area">
+
+        <article class="article-body">
+
+            <div class="content-section reveal" id="sec-visao">
+                <span class="section-eyebrow">01 · Visão Geral</span>
+                <h2 class="content-h2">O que é o <em>Projeto</em></h2>
+
+                <p class="content-lead">
+                    Este projeto é um dashboard de Business Intelligence desenvolvido no Power BI para
+                    acompanhar os principais indicadores operacionais e financeiros de uma clínica médica
+                    ao longo de dois anos completos · 2023 e 2024.
+                </p>
+
+                <p class="content-p">
+                    O objetivo foi praticar modelagem dimensional com um cenário realista do setor de saúde,
+                    trabalhando com dados de pacientes, médicos, procedimentos e atendimentos em um modelo
+                    estrela bem definido. O dataset foi construído do zero com 7.738 registros de atendimentos
+                    simulados, distribuídos entre consultas, exames e procedimentos de seis especialidades médicas.
+                </p>
+
+                <p class="content-p">
+                    O painel responde perguntas práticas da gestão: qual especialidade gera mais receita?
+                    Qual médico tem maior taxa de cancelamento? Como a receita de convênio se compara à de
+                    pacientes particulares? Qual mês concentrou o maior ticket médio?
+                </p>
+
+                <div class="metrics-row reveal">
+                    <div class="metric-card">
+                        <span class="metric-num">7.738</span>
+                        <span class="metric-label">Atendimentos<br>Registrados</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-num">5</span>
+                        <span class="metric-label">Tabelas no<br>Modelo Estrela</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-num">2</span>
+                        <span class="metric-label">Anos de Dados<br>(2023 – 2024)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-divider reveal">
+                <div class="content-divider-line"></div>
+                <div class="content-divider-diamond"></div>
+                <div class="content-divider-line"></div>
+            </div>
+
+            <div class="content-section reveal" id="sec-dados">
+                <span class="section-eyebrow">02 · Estrutura dos Dados</span>
+                <h2 class="content-h2">Cinco Tabelas, <em>Um Modelo Coeso</em></h2>
+
+                <p class="content-p">
+                    O dataset foi organizado em cinco tabelas com nomes em português e colunas intuitivas,
+                    facilitando a compreensão do modelo mesmo para quem está iniciando no Power BI.
+                </p>
+
+                <h3 class="content-h3">Tabela Fato · Atendimentos</h3>
+
+                <p class="content-p">
+                    A tabela central do modelo. Cada linha representa um atendimento registrado na clínica,
+                    contendo a data, o paciente, o médico responsável, o procedimento realizado, o status
+                    (<em>Realizado</em>, <em>Cancelado</em> ou <em>Faltou</em>), a forma de pagamento
+                    (PIX, Cartão Débito, Cartão Crédito, Dinheiro ou Convênio), o valor cobrado e o valor
+                    efetivamente recebido.
+                </p>
+
+                <h3 class="content-h3">Tabelas Dimensão</h3>
+
+                <ul class="content-list reveal">
+                    <li>
+                        <strong>Pacientes:</strong> 200 pacientes cadastrados com nome, data de nascimento,
+                        sexo, cidade (São Paulo, Guarulhos, Campinas, Osasco, Santo André e São Bernardo do
+                        Campo), plano de saúde (Particular, Unimed, Bradesco Saúde, SulAmérica e Amil) e
+                        tipo de cliente.
+                    </li>
+                    <li>
+                        <strong>Médicos:</strong> 12 médicos distribuídos em 6 especialidades · Clínico Geral,
+                        Cardiologia, Ortopedia, Dermatologia, Pediatria e Ginecologia · com turno de trabalho
+                        e valor de consulta particular de cada profissional.
+                    </li>
+                    <li>
+                        <strong>Procedimentos:</strong> 18 itens catalogados em três categorias ·
+                        6 consultas (Clínica, Cardiológica, Ortopédica, Dermatológica, Pediátrica e
+                        Ginecológica), 7 exames (Eletrocardiograma, Raio-X, Ultrassom, Hemograma,
+                        Glicemia, Teste Ergométrico e Ecocardiograma) e 5 procedimentos (Curativo,
+                        Infiltração, Pequena Cirurgia, Inalação e Aferição de Pressão). Cada item possui
+                        valor distinto para paciente particular e para convênio.
+                    </li>
+                    <li>
+                        <strong>Calendário:</strong> tabela de datas cobrindo todos os dias de 2023 a 2024,
+                        com colunas de dia, mês, nome do mês, trimestre, ano, dia da semana e flag de fim de
+                        semana · base para toda a inteligência de tempo do modelo.
+                    </li>
+                </ul>
+
+              
+            </div>
+
+            <div class="content-divider reveal">
+                <div class="content-divider-line"></div>
+                <div class="content-divider-diamond"></div>
+                <div class="content-divider-line"></div>
+            </div>
+
+            <div class="content-section reveal" id="sec-modelagem">
+                <span class="section-eyebrow">03 · Modelagem</span>
+                <h2 class="content-h2">Star Schema e <em>Medidas DAX</em></h2>
+
+                <p class="content-p">
+                    O modelo segue o padrão estrela (star schema): a tabela <strong>Atendimentos</strong>
+                    fica no centro como tabela fato, conectada às quatro dimensões por chaves inteiras
+                    simples · <code>PacienteID</code>, <code>MedicoID</code>, <code>ProcedimentoID</code>
+                    e <code>DataID</code>.
+                </p>
+
+                <p class="content-p">
+                    Essa estrutura garante que qualquer filtro aplicado em uma dimensão · seja por
+                    especialidade, ano ou mês · propague corretamente para a tabela fato,
+                    sem relacionamentos complexos ou tabelas intermediárias.
+                </p>
+
+                <h3 class="content-h3">Principais Medidas DAX</h3>
+
+                <ul class="content-list reveal">
+                    <li>
+                        <strong>Receita Total:</strong> soma do <code>ValorRecebido</code> filtrando
+                        apenas os atendimentos com status <em>Realizado</em>.
+                    </li>
+                    <li>
+                        <strong>Ticket Médio:</strong> receita total dividida pelo número de atendimentos
+                        realizados · calculado dinamicamente por médico, especialidade ou período.
+                    </li>
+                    <li>
+                        <strong>Taxa de Cancelamento:</strong> percentual de atendimentos com status
+                        <em>Cancelado</em> ou <em>Faltou</em> sobre o total agendado no período.
+                    </li>
+                    <li>
+                        <strong>Receita Particular vs. Convênio:</strong> comparativo de receita entre
+                        os dois modelos de atendimento, evidenciando a diferença de margem por tipo
+                        de paciente.
+                    </li>
+                </ul>
+
+                <div class="content-img-wrap reveal">
+         
+                    <img src="img/img1.png" alt="Modelo estrela no Power BI" style="width:100%;border-radius:8px;">
+                    <div class="content-img-caption">
+                        Figura 1 · Modelo estrela no Power BI com a tabela Atendimentos ao centro
+                        e as quatro dimensões conectadas pelas chaves de relacionamento.
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-divider reveal">
+                <div class="content-divider-line"></div>
+                <div class="content-divider-diamond"></div>
+                <div class="content-divider-line"></div>
+            </div>
+
+            <div class="content-section reveal" id="sec-kpis">
+                <span class="section-eyebrow">04 · KPIs e Visualizações</span>
+                <h2 class="content-h2">O que o <em>Dashboard Responde</em></h2>
+
+                <p class="content-p">
+                    O painel foi construído para responder às perguntas mais relevantes para a gestão de
+                    uma clínica médica, com visuais interativos e filtros cruzados entre todas as
+                    dimensões do modelo.
+                </p>
+
+                <h3 class="content-h3">Análises Disponíveis</h3>
+
+                <ul class="content-list reveal">
+                    <li><strong>Receita mensal e acumulada</strong> com comparativo entre 2023 e 2024.</li>
+                    <li><strong>Desempenho por especialidade</strong> · quais especialidades geram mais receita
+                        e concentram maior volume de atendimentos.</li>
+                    <li><strong>Ranking de médicos</strong> por receita gerada, quantidade de atendimentos
+                        e ticket médio individual.</li>
+                    <li><strong>Procedimentos mais realizados</strong> · distribuição entre consultas, exames
+                        e procedimentos por volume e valor gerado.</li>
+                    <li><strong>Taxa de ocupação e ausência</strong> · percentual de pacientes que compareceram,
+                        cancelaram ou faltaram sem aviso.</li>
+                    <li><strong>Distribuição por forma de pagamento</strong> · PIX, cartão de débito, cartão
+                        de crédito, dinheiro e convênio.</li>
+                    <li><strong>Perfil dos pacientes</strong> · distribuição por cidade, plano de saúde e sexo.</li>
+                </ul>
+
+                <div class="content-img-wrap reveal">
+        
+                    <img src="img/img2.png" alt="Análise por procedimento" style="width:100%;border-radius:8px;">
+                    <div class="content-img-caption">
+                        Figura 2 · Visão geral do painel com KPIs principais e filtros por mês,
+                        ano e especialidade.
+                    </div>
+                </div>
+
+                <div class="content-img-wrap reveal">
+      
+                     <img src="img/img3.png" alt="Análise por procedimento" style="width:100%;border-radius:8px;"> 
+                    <div class="content-img-caption">
+                        Figura 3 · Análise de receita por procedimento, destacando a diferença de valor
+                        entre atendimento particular e convênio.
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-divider reveal">
+                <div class="content-divider-line"></div>
+                <div class="content-divider-diamond"></div>
+                <div class="content-divider-line"></div>
+            </div>
+
+            <div class="content-section reveal" id="sec-aprendizados">
+                <span class="section-eyebrow">05 · Reflexões</span>
+                <h2 class="content-h2">O que aprendi com <em>este projeto</em></h2>
+
+                <p class="content-p">
+                    Construir o dataset do zero foi a parte mais enriquecedora do projeto. Pensar em quais
+                    tabelas criar, quais colunas seriam necessárias e como garantir consistência nos
+                    relacionamentos antes mesmo de abrir o Power BI reforçou que a qualidade de um
+                    dashboard começa muito antes da camada visual.
+                </p>
+
+                <p class="content-p">
+                    As medidas DAX como Ticket Médio e Taxa de Cancelamento evidenciaram como a mesma
+                    fórmula pode gerar respostas completamente diferentes dependendo do contexto de filtro
+                    aplicado · comportamento que exige atenção ao usar funções como <code>CALCULATE</code>
+                    e <code>DIVIDE</code> corretamente.
+                </p>
+
+                <p class="content-p">
+                    O projeto também reforçou a importância de nomear tabelas e colunas de forma clara,
+                    organizar o modelo pensando no usuário final e documentar o processo · habilidades que
+                    vão além do conhecimento técnico da ferramenta e que fazem a diferença em um contexto
+                    profissional.
+                </p>
+            </div>
+
+            <div class="content-divider reveal">
+                <div class="content-divider-line"></div>
+                <div class="content-divider-diamond"></div>
+                <div class="content-divider-line"></div>
+            </div>
+
+          
+
+        </article>
+
+        <aside class="article-sidebar reveal">
+
+            <div class="sidebar-block">
+                <span class="sidebar-label">Neste Projeto</span>
+                <ul class="toc-list">
+                    <li><a href="#sec-visao" class="toc-link">01 · Visão Geral</a></li>
+                    <li><a href="#sec-dados" class="toc-link">02 · Estrutura dos Dados</a></li>
+                    <li><a href="#sec-modelagem" class="toc-link">03 · Modelagem</a></li>
+                    <li><a href="#sec-kpis" class="toc-link">04 · KPIs</a></li>
+                    <li><a href="#sec-aprendizados" class="toc-link">05 · Reflexões</a></li>
+                    <li><a href="#sec-creditos" class="toc-link">06 · Créditos</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-block">
+                <span class="sidebar-label">Links</span>
+                <div class="sidebar-links">
+                    <!-- Adicionar depois -->
+                    <a href="" target="_blank" rel="noopener" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M11 2H4a1 1 0 0 0-1 1v18a1 1 0 0 0 1 1h7V2zm2 0v20h3V9h-1a1 1 0 0 1-1-1V2h-1zm4 0v5.17A2 2 0 0 0 18 9h1v13h1a1 1 0 0 0 1-1V6l-4-4z" />
+                        </svg>
+                        Ver Dashboard Online
+                    </a>
+                    <a href="https://github.com/MateusCruzTech" target="_blank" rel="noopener" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/m/in/mateustechcruz" target="_blank" rel="noopener"
+                        class="sidebar-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="projetos.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Voltar ao Portfólio
+                    </a>
+                </div>
+            </div>
+
+            <div class="sidebar-block">
+                <span class="sidebar-label">Stack Técnica</span>
+                <div class="sidebar-pills">
+                    <span class="sidebar-pill">Power BI Desktop</span>
+                    <span class="sidebar-pill">Power Query (M)</span>
+                    <span class="sidebar-pill">DAX</span>
+                    <span class="sidebar-pill">Microsoft Excel</span>
+                    <span class="sidebar-pill">Star Schema</span>
+                    <span class="sidebar-pill">ETL</span>
+                </div>
+            </div>
+
+            
+
+        </aside>
+
+    </div>
+
+    <a href="projetos.html" class="next-project">
+        <div class="next-inner">
+            <div>
+                <span class="next-label">Ver Outros</span>
+                <div class="next-title">Explorar a <em>Galeria de Projetos</em></div>
+            </div>
+            <div class="next-arrow">→</div>
+        </div>
+    </a>
+
+    <footer>
+        <div class="footer-top">
+            <div>
+                <div class="footer-brand">Mateus <span>Cruz</span></div>
+                <p class="footer-bio">Estudante de Ciência da Computação na Universidade FUMEC e desenvolvedor com foco
+                    em back-end, otimização e performance de sistemas.</p>
+            </div>
+
+            <div>
+                <div class="footer-col-title">Navegação</div>
+                <ul class="footer-links">
+                    <li><a href="/index.html#sobre">Sobre Mim</a></li>
+                    <li><a href="/index.html#formacao">Formação</a></li>
+                    <li><a href="/pages/project_page/index.html">Projetos</a></li>
+                    <li><a href="/pages/articles_page/index.html">Artigos</a></li>
+                    <li><a href="/index.html#cursos">Cursos</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer-col-title">Contato</div>
+                <ul class="footer-links">
+                    <li><a href="mailto:mateustechcruz@gmail.com">mateustechcruz@gmail.com</a></li>
+                    <li><a href="https://www.linkedin.com/m/in/mateustechcruz" target="_blank">LinkedIn</a>
+                    </li>
+                    <li><a href="https://github.com/MateusCruzTech" target="_blank">GitHub</a></li>
+                    <li><a href="#">Minas Gerais, Brasil</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-copy">© 2026 Mateus Cruz · Todos os direitos reservados</div>
+            <div class="footer-social">
+                <a href="https://github.com/MateusCruzTech" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/m/in/mateustechcruz" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../global/script.js"></script>
+</body>
+
+</html>

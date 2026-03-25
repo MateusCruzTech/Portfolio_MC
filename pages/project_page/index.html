@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos — Mateus Cruz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <a href="./../../index.html" class="logo">Mateus <span>Cruz</span></a>
+        <nav>
+            <a href="../../index.html#sobre">Sobre</a>
+            <a href="../../index.html#formacao">Formação</a>
+            <a href="../project_page/index.html">Projetos</a>
+            <a href="../articles_page/index.html">Artigos</a>
+            <a href="../../index.html#cursos">Cursos</a>
+            <a href="../../index.html#apresentacao">Apresentação</a>
+            <a href="mailto:mateustechcruz@gmail.com" class="nav-cta">Contato</a>
+        </nav>
+        <div class="hamburger" id="hamburger" aria-label="Menu" role="button" tabindex="0">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+
+    <nav class="mobile-nav" id="mobile-nav">
+        <a href="../../index.html#sobre">Sobre</a>
+        <a href="../../index.html#formacao">Formação</a>
+        <a href="../project_page/index.html">Projetos</a>
+        <a href="../articles_page/index.html">Artigos</a>
+        <a href="../../index.html#cursos">Cursos</a>
+        <a href="../../index.html#apresentacao">Apresentação</a>
+        <a href="mailto:mateustechcruz@gmail.com">Contato</a>
+    </nav>
+
+
+    <section class="page-hero">
+        <div class="page-hero-texture"></div>
+        <div class="page-hero-inner">
+            <div>
+                <span class="page-hero-eyebrow">Portfólio Técnico</span>
+                <h1 class="page-hero-title">Projetos <em>&amp; Trabalhos</em></h1>
+                <p class="page-hero-desc">
+                    Uma seleção de iniciativas desenvolvidas ao longo da graduação, com atenção ao rigor técnico e ao
+                    impacto real.
+                </p>
+                <div class="page-hero-line"></div>
+            </div>
+            <div class="page-hero-meta">
+                <span class="hero-count" id="total-count">05</span>
+                <span class="hero-count-label">Projetos</span>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="filters-bar">
+        <div class="filters-inner">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="backend">Backend</button>
+            <button class="filter-btn" data-filter="dados">Power BI - Dados</button>
+            <button class="filter-btn" data-filter="mobile">Web & Apps</button>
+            <span class="filters-count" id="filter-count">8 projetos</span>
+        </div>
+    </div>
+
+
+    <section id="projetos-section">
+        <div class="projects-wrapper">
+            <div class="projects-grid" id="projects-grid">
+
+
+                <article class="project-card featured" data-category="backend">
+                    <div class="card-accent"></div>
+                    <div class="featured-badge">Destaque</div>
+                    <div class="card-thumb" data-initials="PL">
+                        <div class="thumb-placeholder">
+                            <span class="thumb-initial">API</span>
+                        </div>
+                        <span class="thumb-tag-overlay">Desenvolvimento · API</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-body">
+                            <span class="card-tag">Java · Spring Boot</span>
+                            <h2 class="card-title">API REST de Cidades Brasileiras</h2>
+                            <p class="card-desc">
+                                API RESTful em Java/Spring Boot para consulta e análise de dados de cidades brasileiras,
+                                a partir de um dataset
+                            </p>
+                            <div class="card-techs">
+                                <span class="tech-pill">Java</span>
+                                <span class="tech-pill">Spring boots</span>
+                                <span class="tech-pill">Swagger UI</span>
+                                <span class="tech-pill">API Rest</span>
+                                <span class="tech-pill">Maven</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-year">2026</span>
+                            <a href="../projects/cidades_brasileiras/index.html" class="btn-details">
+                                Ver Detalhes
+                                <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 6h10M6 1l5 5-5 5" stroke="currentColor" stroke-width="1.2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="project-card" data-category="dados">
+                    <div class="card-accent"></div>
+                    <div class="card-thumb" data-initials="PB">
+                        <div class="thumb-placeholder">
+                            <span class="thumb-initial">PB</span>
+                        </div>
+                        <span class="thumb-tag-overlay">Power BI</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Business Intelligence</span>
+                        <h2 class="card-title">Dashboard Financeiro Empresarial · Power BI</h2>
+                        <p class="card-desc">
+                            Consolidação de mais de 100 planilhas Excel (2017–2024) em um único dashboard interativo.
+                            Modelagem dimensional com Power Query e DAX para análise de receitas, custos e resultado
+                            operacional por período, cliente e estado.
+                        </p>
+                        <div class="card-techs">
+                            <span class="tech-pill">Power BI</span>
+                            <span class="tech-pill">Power Query</span>
+                            <span class="tech-pill">DAX</span>
+                            <span class="tech-pill">Excel</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-year">2026</span>
+                        <a href="../projects/dashboard_power_bi/index.html" class="btn-details">
+                            Ver Detalhes
+                            <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6h10M6 1l5 5-5 5" stroke="currentColor" stroke-width="1.2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="project-card" data-category="dados">
+                    <div class="card-accent"></div>
+                    <div class="card-thumb" data-initials="CM">
+                        <div class="thumb-placeholder">
+                            <span class="thumb-initial">CM</span>
+                        </div>
+                        <span class="thumb-tag-overlay">Power BI</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Business Intelligence</span>
+                        <h2 class="card-title">Dashboard Clínica Médica · Power BI</h2>
+                        <p class="card-desc">
+                            Modelo estrela com 7.738 atendimentos simulados (2023–2024). Análise de receita,
+                            ticket médio, taxa de cancelamento e desempenho por médico, especialidade e
+                            tipo de paciente com DAX e Power Query.
+                        </p>
+                        <div class="card-techs">
+                            <span class="tech-pill">Power BI</span>
+                            <span class="tech-pill">Power Query</span>
+                            <span class="tech-pill">DAX</span>
+                            <span class="tech-pill">Excel</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-year">2026</span>
+                        <a href="../projects/dashboard_clinica_medica/index.html" class="btn-details">
+                            Ver Detalhes
+                            <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6h10M6 1l5 5-5 5" stroke="currentColor" stroke-width="1.2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="project-card" data-category="backend">
+                    <div class="card-accent"></div>
+                    <div class="card-thumb" data-initials="SS">
+                        <div class="thumb-placeholder">
+                            <span class="thumb-initial">SS</span>
+                        </div>
+                        <span class="thumb-tag-overlay">Backend</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Backend · Segurança</span>
+                        <h2 class="card-title">API Forum · Spring Security 6 + JWT</h2>
+                        <p class="card-desc">
+                            API RESTful com autenticação JWT assinada via RSA, controle de acesso por roles
+                            (ADMIN/BASIC), feed paginado de comentários e ambiente dockerizado com MySQL.
+                        </p>
+                        <div class="card-techs">
+                            <span class="tech-pill">Java</span>
+                            <span class="tech-pill">Spring Security 6</span>
+                            <span class="tech-pill">JWT</span>
+                            <span class="tech-pill">Docker</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-year">2026</span>
+                        <a href="/pages/projects/forum_spring_secutiry/index.html" class="btn-details">
+                            Ver Detalhes
+                            <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6h10M6 1l5 5-5 5" stroke="currentColor" stroke-width="1.2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="project-card" data-category="mobile">
+                    <div class="card-accent"></div>
+                    <div class="card-thumb" data-initials="FL">
+                        <div class="thumb-placeholder">
+                            <span class="thumb-initial">FL</span>
+                        </div>
+                        <span class="thumb-tag-overlay">Mobile</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Mobile · Flutter</span>
+                        <h2 class="card-title">Contador em Flutter</h2>
+                        <p class="card-desc">
+                            Aplicativo mobile com incremento e decremento dinâmico. Foco em
+                            StatefulWidget, setState() e hierarquia de widgets com Material Design.
+                        </p>
+                        <div class="card-techs">
+                            <span class="tech-pill">Flutter</span>
+                            <span class="tech-pill">Dart</span>
+                            <span class="tech-pill">Material Design</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-year">2025</span>
+                        <a href="/pages/projects/app_contador_pessoas/index.html" class="btn-details">
+                            Ver Detalhes
+                            <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6h10M6 1l5 5-5 5" stroke="currentColor" stroke-width="1.2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+
+
+
+
+            </div>
+
+            <div class="empty-state" id="empty-state">
+                <div class="empty-icon">◇</div>
+                <p class="empty-text">Nenhum projeto nesta categoria</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-top">
+            <div>
+                <div class="footer-brand">Mateus <span>Cruz</span></div>
+                <p class="footer-bio"> Estudante de Ciência da Computação
+                    com foco em desenvolvimento beck-end,
+                    área de dados e engenharia de software.</p>
+            </div>
+
+            <div>
+                <div class="footer-col-title">Navegação</div>
+                <ul class="footer-links">
+                    <li><a href="/index.html#sobre">Sobre Mim</a></li>
+                    <li><a href="/index.html#formacao">Formação</a></li>
+                    <li><a href="/pages/project_page/index.html">Projetos</a></li>
+                    <li><a href="/pages/articles_page/index.html">Artigos</a></li>
+                    <li><a href="/index.html#cursos">Cursos</a></li>
+                    <li><a href="/index.html#apresentacao">Apresentação</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer-col-title">Contato</div>
+                <ul class="footer-links">
+                    <li><a href="mailto:mateustechcruz@gmail.com">mateustechcruz@gmail.com</a></li>
+                    <li><a href="https://www.linkedin.com/m/in/mateustechcruz">www.linkedin.com/in/mateustechcruz</a></li>
+                    <li><a href="https://github.com/MateusCruzTech">https://github.com/MateusCruzTech</a></li>
+                    <li><a href="#">Minas Gerais, Brasil</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-copy">© 2026 Mateus Cruz · Todos os direitos reservados</div>
+            <div class="footer-social">
+                <a target="_blank" href="https://github.com/MateusCruzTech">GitHub</a>
+                <a target="_blank" href="https://www.linkedin.com/m/in/mateustechcruz">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
