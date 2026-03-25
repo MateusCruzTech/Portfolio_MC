@@ -1,4 +1,8 @@
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
 
+gtag('config', 'G-LPCW3D3TZD');
 
 const revealEls = document.querySelectorAll('.reveal');
 const revealObs = new IntersectionObserver((entries) => {
@@ -33,14 +37,14 @@ filterBtns.forEach(btn => {
         const filter = btn.dataset.filter;
         let visible = 0;
 
-     
+
         const featuredCat = featured.dataset.category || '';
         const showFeatured = filter === 'all' || featuredCat.includes(filter);
         featured.style.display = showFeatured ? '' : 'none';
         if (showFeatured) { setTimeout(() => featured.classList.add('visible'), 10); visible++; }
         else { featured.classList.remove('visible'); }
 
-     
+
         cards.forEach(card => {
             const cats = card.dataset.category || '';
             const show = filter === 'all' || cats.includes(filter);
@@ -70,3 +74,4 @@ document.querySelectorAll('img').forEach(img => {
     img.addEventListener('load', () => img.classList.add('loaded'));
     if (img.complete) img.classList.add('loaded');
 });
+

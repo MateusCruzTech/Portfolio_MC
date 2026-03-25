@@ -1,4 +1,8 @@
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
 
+gtag('config', 'G-LPCW3D3TZD');
 
 const allReveals = document.querySelectorAll('.reveal');
 const revealObserver = new IntersectionObserver((entries) => {
