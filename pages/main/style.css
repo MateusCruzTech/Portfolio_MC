@@ -1,4 +1,4 @@
- *,
+*,
  *::before,
  *::after {
      box-sizing: border-box;
@@ -11,10 +11,11 @@
      --ivory: #FAF7F2;
      --gold: #C9A96E;
      --gold-light: #DFC08A;
+    --gold-deep: #6B5228;
      --charcoal: #1A1A1A;
      --dark: #0D0D0D;
      --mid: #4A4540;
-     --light-mid: #8A847C;
+     --light-mid: #5C574F;
      --border: #D8D0C4;
      --section-bg: #F0EBE1;
      --serif: 'Cormorant Garamond', Georgia, serif;
@@ -327,7 +328,7 @@
      font-size: 0.58rem;
      letter-spacing: 0.3em;
      text-transform: uppercase;
-     color: var(--gold);
+     color: var(--gold-deep);
      display: block;
      margin-bottom: 16px;
  }
@@ -488,12 +489,23 @@
  }
 
 
+ #experiencia {
+     background: var(--cream);
+ }
+
  #formacao {
      background: var(--section-bg);
+     border-top: 1px solid var(--border);
  }
 
  .timeline {
      max-width: 900px;
+     margin: 0 auto;
+     padding: 0 60px 100px;
+ }
+
+ .timelineExp{
+      max-width: 900px;
      margin: 0 auto;
      padding: 0 60px 100px;
  }
@@ -532,7 +544,7 @@
      font-family: var(--serif);
      font-size: 0.75rem;
      letter-spacing: 0.12em;
-     color: var(--gold);
+     color: var(--gold-deep);
      padding: 20px 24px 20px 0;
      text-align: right;
  }
@@ -558,7 +570,7 @@
      font-size: 0.6rem;
      letter-spacing: 0.2em;
      text-transform: uppercase;
-     color: var(--gold);
+     color: var(--gold-deep);
      margin-bottom: 6px;
  }
 
@@ -573,7 +585,7 @@
  .timeline-desc {
      font-size: 0.7rem;
      line-height: 1.7;
-     color: var(--light-mid);
+     color: var(--mid);
      letter-spacing: 0.03em;
  }
 

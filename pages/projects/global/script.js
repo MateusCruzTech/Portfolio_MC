@@ -4,27 +4,25 @@ gtag('js', new Date());
 
 gtag('config', 'G-LPCW3D3TZD');
 
-const revealEls = document.querySelectorAll('.reveal');
-const revealObs = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-}, { threshold: 0.08, rootMargin: '0px 0px -32px 0px' });
-revealEls.forEach(el => revealObs.observe(el));
-
-
-const sections = document.querySelectorAll('[id^="sec-"]');
-const tocLinks = document.querySelectorAll('.toc-link');
-
-const tocObs = new IntersectionObserver((entries) => {
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            tocLinks.forEach(l => l.classList.remove('toc-active'));
-            const active = document.querySelector(`.toc-link[href="#${entry.target.id}"]`);
-            if (active) active.classList.add('toc-active');
+            entry.target.classList.add('visible');
         }
     });
-}, { threshold: 0.4 });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-sections.forEach(s => tocObs.observe(s));
+reveals.forEach(el => observer.observe(el));
+
+
+document.querySelectorAll('.projects-grid, .cursos-grid, .rec-grid, .artigos-list').forEach(container => {
+    const children = container.querySelectorAll('.project-card, .curso-card, .rec-card, .artigo-item');
+    children.forEach((child, i) => {
+        child.style.transitionDelay = `${i * 0.08}s`;
+    });
+});
+
 
 
 const hamburger = document.getElementById('hamburger');
