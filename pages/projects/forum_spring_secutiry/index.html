@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Forum com Spring Security 6 + JWT · Mateus Cruz</title>
+    <title>Mateus Cruz — Ciência da Computação</title>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPCW3D3TZD"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../global/style.css">
+    <link rel="stylesheet" href="/pages/main/style.css">
 </head>
 
 <body>
 
+
     <header>
-        <a href="/index.html" class="logo">Mateus <span>Cruz</span></a>
+        <a href="#hero" class="logo">Mateus <span>Cruz</span></a>
         <nav>
-            <a href="../../../index.html#sobre">Sobre</a>
-            <a href="../../../index.html#experiencia">Experiencia</a>
-            <a href="../../../index.html#formacao">Formação</a>
-            <a href="../../project_page/index.html">Projetos</a>
-            <a href="../../articles_page/index.html">Artigos</a>
-            <a href="../../../index.html#cursos">Cursos</a>
-            <a href="../../../index.html#apresentacao">Apresentação</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#formacao">Formação</a>
+            <a href="pages/project_page/index.html">Projetos</a>
+            <a href="pages/articles_page/index.html">Artigos</a>
+            <a href="index.html#cursos">Cursos</a>
+            <a href="#apresentacao">Apresentação</a>
             <a href="mailto:mateustechcruz@gmail.com" class="nav-cta">Contato</a>
         </nav>
         <div class="hamburger" id="hamburger" aria-label="Menu" role="button" tabindex="0">
@@ -32,501 +33,536 @@
         </div>
     </header>
 
+
+
     <nav class="mobile-nav" id="mobile-nav">
-    <a href="../../../index.html#sobre">Sobre</a>
-            <a href="../../../index.html#experiencia">Experiencia</a>
-            <a href="../../../index.html#formacao">Formação</a>
-            <a href="../../project_page/index.html">Projetos</a>
-            <a href="../../articles_page/index.html">Artigos</a>
-            <a href="../../../index.html#cursos">Cursos</a>
-            <a href="../../../index.html#apresentacao">Apresentação</a>
-            <a href="mailto:mateustechcruz@gmail.com" class="nav-cta">Contato</a>
+        <a href="#sobre">Sobre</a>
+         <a href="#experiencia">Experiência</a>
+        <a href="#formacao">Formação</a>
+        <a href="pages/project_page/index.html">Projetos</a>
+        <a href="pages/articles_page/index.html">Artigos</a>
+        <a href="index.html#cursos">Cursos</a>
+        <a href="#apresentacao">Apresentação</a>
+        <a href="mailto:mateustechcruz@gmail.com">Contato</a>
     </nav>
 
-    <div class="breadcrumb">
-        <div class="breadcrumb-inner">
-            <a href="portfolio.html">Portfólio</a>
-            <span class="breadcrumb-sep">›</span>
-            <a href="projetos.html">Projetos</a>
-            <span class="breadcrumb-sep">›</span>
-            <span class="current">API Forum · Spring Security 6 + JWT</span>
+    <section id="hero">
+        <div class="hero-left">
+            <div class="hero-texture"></div>
+            <div class="hero-eyebrow">Portfólio · 2026</div>
+            <h1 class="hero-name">
+                Mateus<br>
+                <em>Cruz</em>
+            </h1>
+            <p class="hero-tagline">
+                Estagiário de TI na FCMMG - FELUMA & Estudante de Ciência da Computação.<br>
+                Background em desenvolvimento back-end e infraestrutura,<br>
+                atualmente em transição para a área de Cloud & DevOps.
+            </p>
+            <div class="hero-line"></div>
+            <div class="hero-scroll">
+                <div class="scroll-dot"></div>
+                Role para explorar
+            </div>
         </div>
-    </div>
 
-    <section class="project-hero">
-        <div class="project-hero-texture"></div>
-        <div class="project-hero-inner">
-
-            <div class="project-hero-left">
-                <div class="project-eyebrow">
-                    <span class="eyebrow-line"></span>
-                    Backend · Spring Security · Java
+        <div class="hero-right">
+            <div class="hero-image-area">
+                <div class="hero-photo-placeholder">
+                    <span class="photo-initials">MC</span>
                 </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num">6</span>
+                    <span class="stat-label">Projetos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">1</span>
+                    <span class="stat-label">Artigo</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <h1 class="project-title">API Forum · <em>Autenticação e Autorização<br>com Spring Security 6 + JWT</em>
-                </h1>
 
-                <p class="project-subtitle">
-                    API RESTful com sistema completo de autenticação via JWT, controle de acesso por roles
-                    (ADMIN / BASIC), feed paginado de comentários e ambiente dockerizado com MySQL.
-                </p>
+    <section id="sobre">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Quem sou eu</span>
+            <h2 class="section-title">Sobre <em>Mim</em></h2>
+            <div class="divider">
+                <div class="divider-line"></div>
+                <div class="divider-diamond"></div>
+                <div class="divider-line"></div>
+            </div>
+        </div>
 
-                <div class="project-links">
-                    <a href="https://github.com/MateusCruzTech/Api_Rest_Forum" target="_blank" rel="noopener"
-                        class="link-btn link-btn-primary">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
-                        </svg>
-                        Ver Repositório
-                    </a>
-                    <a href="https://www.linkedin.com/m/in/mateustechcruz" target="_blank" rel="noopener"
-                        class="link-btn link-btn-secondary">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                        </svg>
-                        LinkedIn
-                    </a>
+        <div class="sobre-grid">
+            <div class="sobre-left reveal">
+                <div class="sobre-portrait">
+                    <span class="portrait-initial">M</span>
+                </div>
+                <div class="sobre-contact">
+                    <a href="mailto:mateustechcruz@gmail.com">mateustechcruz@gmail.com</a>
+                    <a target="_blank"
+                        href="https://www.linkedin.com/in/mateustechcruz/">linkedin.com/in/mateustechcruz</a>
+                    <a target="_blank" href="https://github.com/MateusCruzTech">github.com/MateusCruzTech</a>
+                    <a href="#">Minas Gerais, Brasil</a>
                 </div>
             </div>
 
-            <div class="project-meta">
-                <div class="meta-block">
-                    <span class="meta-label">Período</span>
-                    <span class="meta-value">2026</span>
-                </div>
-                <div class="meta-block">
-                    <span class="meta-label">Status</span>
-                    <span class="meta-value">Concluído</span>
-                </div>
-                <div class="meta-block">
-                    <span class="meta-label">Stack Principal</span>
-                    <div class="meta-pills">
-                        <span class="meta-pill">Java 17+</span>
-                        <span class="meta-pill">Spring Boot 3</span>
-                        <span class="meta-pill">Spring Security 6</span>
-                        <span class="meta-pill">OAuth2 Resource Server</span>
-                        <span class="meta-pill">JWT (RSA)</span>
-                        <span class="meta-pill">MySQL</span>
-                        <span class="meta-pill">Docker</span>
+            <div class="sobre-right reveal">
+                <p class="sobre-body">
+                    Sou <strong>Mateus Cruz</strong>, estudante de Ciência da Computação pela Uninter e estagiário de TI
+                    na Fundação Educacional Lucas Machado (FELUMA). Minha trajetória é guiada pela curiosidade de
+                    entender como os sistemas funcionam por baixo dos panos, desde a infraestrutura até o código final.
+                </p>
+                <p class="sobre-body">
+                    Atualmente, integro a equipe de TI do <strong>Campus II da FCMMG (FELUMA)</strong>, sede do
+                    Ambulatório Ciências Médicas de Minas Gerais (ACM-MG) — unidade com bloco cirúrgico e atendimento
+                    de alta complexidade a pacientes do SUS —, onde aplico na prática conceitos de resolução de
+                    problemas, suporte de hardware/software e atendimento ao usuário em um ambiente hospitalar de
+                    alta criticidade. Em paralelo, direciono meus estudos para a área de <strong>Cloud Computing e
+                        DevOps</strong>, unindo minha base em desenvolvimento back-end com automação e segurança.
+                </p>
+                <!--
+                <p class="sobre-body">
+                    Quando não estou codando, escrevo artigos sobre computação teórica, tenho muito interessa por música
+                    e
+                    atualmente estou desenvolvendo uma iniciativa de educação para ensinar pessoas assuntos especificos
+                    do mundo tech.
+                </p>*/-->
+
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>Suporte Técnico, Manutenção de Hardware & Help Desk
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>Java, C, C++ & Python
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>Power BI, SQL, & Pacote office
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>Desenvolvimento agil, Metodologia Scrum & Jira
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>Spring Boot, .NET 9.0, Swagger & Spring Security
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>HTML, CSS, JavaScript
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>PostgreSQL, MongoDB, MySql & Docker
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>Flutter, swift & Kotlin
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>API Rest, Git, Github & técnica Git Flow
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>Artigos & Testes unitários (JUnit e Mockito)
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-dot"></div>Linux/Ubuntu, Windows & Spring Security
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+    <section id="experiencia">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Trajetória Profissional</span>
+            <h2 class="section-title">Experiência <em>Profissional</em></h2>
+            <div class="divider">
+                <div class="divider-line"></div>
+                <div class="divider-diamond"></div>
+                <div class="divider-line"></div>
+            </div>
+        </div>
+
+        <div class="timelineExp reveal">
+            <div class="timeline-item">
+                <div class="timeline-year">2026 — atualmente</div>
+                <div class="timeline-content">
+                    <div class="timeline-inst">Fundação Educacional Lucas Machado (FELUMA) · FCMMG, Campus II</div>
+                    <div class="timeline-degree">Estagiário de TI e Suporte · Ambulatório Ciências Médicas de Minas Gerais (ACM-MG)</div>
+                    <div class="timeline-desc">
+                        Atuação direta no suporte técnico junto à equipe do Campus II da FCMMG, sede do Ambulatório
+                        Ciências Médicas de Minas Gerais (ACM-MG) — unidade com bloco cirúrgico e atendimento de alta
+                        complexidade a pacientes do SUS. Responsável por diagnosticar e solucionar problemas de
+                        <strong>hardware e software</strong>, realizar a gestão de periféricos nos setores da
+                        instituição e garantir a estabilidade dos terminais e microcomputadores — mantendo a
+                        continuidade operacional em um ambiente onde isso impacta diretamente o atendimento ao
+                        paciente.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Trajetória Acadêmica</span>
+            <h2 class="section-title">Formação <em>& Educação</em></h2>
+            <div class="divider">
+                <div class="divider-line"></div>
+                <div class="divider-diamond"></div>
+                <div class="divider-line"></div>
+            </div>
+        </div>
+
+        <div class="timeline reveal">
+            <div class="timeline-item">
+                <div class="timeline-year">2026 — atual</div>
+                <div class="timeline-content">
+                    <div class="timeline-inst">Centro Universitário Internacional - Uninter</div>
+                    <div class="timeline-degree">Bacharelado em Ciência da Computação</div>
+                    <div class="timeline-desc">
+                        Graduação atual com foco no aprofundamento de arquitetura de sistemas, redes, segurança e
+                        engenharia de software, alinhando a base teórica com meus estudos práticos em Cloud e DevOps.
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2025 — 2026 (trancado)</div>
+                <div class="timeline-content">
+                    <div class="timeline-inst">Universidade de Fundação Mineira de Educação e Cultura - FUMEC</div>
+                    <div class="timeline-degree">Bacharelado em Ciência da Computação</div>
+                    <div class="timeline-desc">
+                        Graduação com foco em fundamentos teóricos e práticos da computação. Consolidação de
+                        competências em
+                        <strong>Estrutura de Dados, Programação Orientada a Objetos (POO), SQL e Git</strong>, aplicando
+                        metodologias
+                        <strong>Agile</strong> no fluxo de desenvolvimento. Atuação atual em projetos de
+                        <strong>Extensão em Programação Web</strong>,
+                        além do estudo aprofundado de Arquitetura de Computadores, Redes e Sistemas Lógicos.
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2024 - 2025/2° - trancado</div>
+                <div class="timeline-content">
+                    <div class="timeline-inst">Jala University</div>
+                    <div class="timeline-degree">Commercial Software Engineering</div>
+                    <div class="timeline-desc">
+                        <strong>Lista do Decano por alto desempenho acadêmico (GPA 3.5 - 3.99)</strong>.
+                        Formação intensiva cobrindo Programação (I, II e III), Engenharia de Software,
+                        Bancos de Dados Relacionais, Sistemas Operacionais e Redes. Base matemática sólida
+                        em Cálculo e Matemática Discreta, além de proficiência em English for Business.
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2022 - 2023</div>
+                <div class="timeline-content">
+                    <div class="timeline-inst">Colégio Cotemig</div>
+                    <div class="timeline-degree">Técnico em TI · Desenvolvimento Mobile</div>
+                    <div class="timeline-desc">
+                        Ensino Médio Técnico focado em <strong>Desenvolvimento Mobile e Web</strong>.
+                        Formação sólida em lógica de programação, algoritmos e banco de dados.
+                        Desenvolvimento de projetos práticos de aplicativos e sistemas, abrangendo desde o
+                        design de interface (UI/UX) até a implementação e deploy.
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section id="projetos">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Portfólio Técnico</span>
+            <span class="section-eyebrow">Clique em um card para ser redirecionado a página projetos</span>
+            <h2 class="section-title">Projetos <em>& Trabalhos</em></h2>
+            <div class="divider">
+                <div class="divider-line"></div>
+                <div class="divider-diamond"></div>
+                <div class="divider-line"></div>
+            </div>
+        </div>
+
+        <div class="projects-grid reveal">
+            <div class="project-card">
+                <div class="project-num">01</div>
+                <span class="project-tag">API REST</span>
+                <div class="project-title"><a href="/pages/projects/cidades_brasileiras/index.html">Cidades
+                        Brasileiras</a></div>
+                <div class="project-desc">API RESTful com 5.500 registros de cidades brasileiras · população, IDH,
+                    coordenadas e PIB · expostos via endpoints filtráveis com documentação Swagger.</div>
+                <div class="project-tech">
+                    <span class="tech-pill">Java</span>
+                    <span class="tech-pill">Spring Boot</span>
+                    <span class="tech-pill">Swagger</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-num">02</div>
+                <span class="project-tag">Business Intelligence</span>
+                <div class="project-title"><a href="/pages/projects/dashboard_power_bi/index.html">Dashboard Financeiro
+                        ·
+                        Power BI</a></div>
+                <div class="project-desc">Consolidação de 100+ planilhas Excel (2017–2024) em um painel interativo.
+                    Modelagem estrela com Power Query e DAX para análise de receitas, custos e resultado operacional.
+                </div>
+                <div class="project-tech">
+                    <span class="tech-pill">Power BI</span>
+                    <span class="tech-pill">Power Query</span>
+                    <span class="tech-pill">DAX</span>
+                    <span class="tech-pill">Excel</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-num">03</div>
+                <span class="project-tag">Business Intelligence</span>
+                <div class="project-title"><a href="/pages/projects/dashboard_clinica_medica/index.html">Dashboard
+                        Clínica
+                        Médica · Power BI</a></div>
+                <div class="project-desc">Modelo estrela com 7.738 atendimentos simulados (2023–2024). Análise de
+                    receita,
+                    ticket médio e taxa de cancelamento por médico, especialidade e tipo de paciente.</div>
+                <div class="project-tech">
+                    <span class="tech-pill">Power BI</span>
+                    <span class="tech-pill">Power Query</span>
+                    <span class="tech-pill">DAX</span>
+                    <span class="tech-pill">Excel</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-num">04</div>
+                <span class="project-tag">Backend · Segurança</span>
+                <div class="project-title"><a href="/pages/projects/forum_spring_secutiry/index.html">API Forum · Spring
+                        Security 6 + JWT</a></div>
+                <div class="project-desc">API RESTful com autenticação JWT via RSA, controle de acesso por roles
+                    (ADMIN/BASIC), feed paginado de comentários e ambiente dockerizado com MySQL.</div>
+                <div class="project-tech">
+                    <span class="tech-pill">Java</span>
+                    <span class="tech-pill">Spring Security 6</span>
+                    <span class="tech-pill">JWT</span>
+                    <span class="tech-pill">Docker</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-num">05</div>
+                <span class="project-tag">Mobile · Flutter</span>
+                <div class="project-title"><a href="pages/projects/app_contador_pessoas/index.html">Contador em
+                        Flutter</a>
+                </div>
+                <div class="project-desc">Aplicativo mobile com incremento e decremento dinâmico. Foco em
+                    StatefulWidget, setState() e estrutura de widgets com Material Design.</div>
+                <div class="project-tech">
+                    <span class="tech-pill">Flutter</span>
+                    <span class="tech-pill">Dart</span>
+                    <span class="tech-pill">Material Design</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-num">06</div>
+                <span class="project-tag">Frontend · Turismo</span>
+                <div class="project-title"><a href="/pages/projects/bh_explorer/index.html">BH Explorer</a></div>
+                <div class="project-desc">Plataforma para explorar pontos turísticos e eventos de Belo Horizonte,
+                    com filtros por categoria, mapa interativo, tabela de locais e calculadora de gastos.</div>
+                <div class="project-tech">
+                    <span class="tech-pill">HTML5</span>
+                    <span class="tech-pill">CSS3</span>
+                    <span class="tech-pill">JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="artigos">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Produção Intelectual</span>
+            <h2 class="section-title">Artigos <em>& Publicações</em></h2>
+            <div class="divider">
+                <div class="divider-line"></div>
+                <div class="divider-diamond"></div>
+                <div class="divider-line"></div>
+            </div>
+        </div>
+
+        <div class="artigos-list">
+            <div class="artigo-item reveal">
+                <div class="artigo-date">Mar 2026</div>
+                <div class="artigo-content">
+                    <div class="artigo-pub">Independente</div>
+                    <div class="artigo-title">Em revisão · Influência das hierarquias de processadores em seu
+                        desempenho</div>
+                    <div class="artigo-abstract">Uma análise sobre a influência que os caches (L1, L2, L3),
+                        registradores, RAM, entre outros
+                        componentes possuem sobre o desempenho da CPU. O texto está em análise final e, em breve,
+                        deve ser publicado.</div>
+                </div>
+                <div class="artigo-arrow"><a href="pages/articles_page/index.html"
+                        style="text-decoration: none;color: #D8D0C4;">→</a></div>
+            </div>
+
 
         </div>
     </section>
 
-    <div class="cover-image-wrap reveal">
-        <div class="cover-image">
-             <!-- <img src="" alt="...">  -->
-            <span class="cover-placeholder-text">Spring Security</span>
+
+    <section id="cursos">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Desenvolvimento Contínuo</span>
+            <h2 class="section-title">Cursos <em>& Certificações</em></h2>
+            <div class="divider">
+                <div class="divider-line"></div>
+                <div class="divider-diamond"></div>
+                <div class="divider-line"></div>
+            </div>
         </div>
-    </div>
 
-    <div class="content-area">
-
-        <article class="article-body">
-
-            <div class="content-section reveal" id="sec-visao">
-                <span class="section-eyebrow">01 · Visão Geral</span>
-                <h2 class="content-h2">O que é o <em>Projeto</em></h2>
-
-                <p class="content-lead">
-                    Este projeto é uma API RESTful em Java com Spring Boot 3 que implementa um sistema
-                    completo de autenticação e autorização usando Spring Security 6, JWT com criptografia
-                    assimétrica RSA e OAuth2 Resource Server · adaptado para funcionar como um fórum
-                    com feed de comentários paginado.
-                </p>
-
-                <p class="content-p">
-                    O ponto de partida foi o tutorial da BuildRun Tech sobre Spring Security 6 + JWT,
-                    que originalmente usava tweets como recurso principal. A adaptação central foi
-                    substituir tweets por <strong>comentários</strong> (<code>Comments</code>), tornando
-                    o domínio mais próximo de um fórum real, e acrescentar o ambiente dockerizado com
-                    MySQL e DataGrip para gerenciamento do banco de dados.
-                </p>
-
-                <p class="content-p">
-                    O resultado é uma API segura, stateless e pronta para produção, com dois níveis de
-                    permissão (ADMIN e BASIC), geração e validação de tokens JWT assinados com par de
-                    chaves RSA (pública/privada) e criação automática do usuário administrador na
-                    inicialização da aplicação.
-                </p>
-
-                <div class="metrics-row reveal">
-                    <div class="metric-card">
-                        <span class="metric-num">2</span>
-                        <span class="metric-label">Roles de<br>Acesso</span>
-                    </div>
-                    <div class="metric-card">
-                        <span class="metric-num">5</span>
-                        <span class="metric-label">Endpoints<br>Principais</span>
-                    </div>
-                    <div class="metric-card">
-                        <span class="metric-num">3</span>
-                        <span class="metric-label">Entidades<br>JPA</span>
-                    </div>
+        <div class="cursos-grid reveal">
+            <div class="curso-card">
+                <div class="curso-inst">FUMEC / Cisco Networking Academy</div>
+                <div class="curso-name">Gerenciamento de Ameaças Cibernéticas</div>
+                <div class="curso-year">2025</div>
+                <span class="curso-badge"><a target="_blank"
+                        href="https://drive.google.com/file/d/1qDeeotcjcjP5fUjiMKnTr1sf_xK90KSL/view?usp=sharing">Certificado</a></span>
+            </div>
+            <div class="curso-card">
+                <div class="curso-inst">Hashtag Treinamentos</div>
+                <div class="curso-name">Power BI</div>
+                <div class="curso-year">2026 · 10 horas</div>
+                <span class="curso-badge"><a target="_blank"
+                        href="https://www.udemy.com/certificate/UC-c15d7bb1-9cbb-43fe-b0e0-54e9972bd85a/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com">Certificado</a></span>
+            </div>
+            <div class="curso-card">
+                <div class="curso-inst">FUMEC / Cisco</div>
+                <div class="curso-name">Cyber Threat Management</div>
+                <div class="curso-year">2025</div>
+                <span class="curso-badge"><a target="_blank"
+                        href="https://drive.google.com/file/d/1qa8YPCXOVAFi5lErh2xtmHsoBrRWLZig/view?usp=sharing">Certificado</a></span>
+            </div>
+            <div class="curso-card">
+                <div class="curso-inst">Jala university</div>
+                <div class="curso-name">Python orientado a objetos e Jogos</div>
+                <div class="curso-year">2024 · 60 Horas</div>
+                <span class="curso-badge"><a target="_blank"
+                        href="https://drive.google.com/file/d/1lY3l5w4z_GN0lFlBnWE8VdIZvB9ijJQ5/view">Certificado</a></span>
+            </div>
+            <div class="curso-card">
+                <div class="curso-inst">Jala University</div>
+                <div class="curso-name">Lista do Decano - Reconhecimento por desempenho acadêmico (GPA entre 3.5 e 3.99)
                 </div>
+                <div class="curso-year">2024</div>
+                <span class="curso-badge"><a target="_blank"
+                        href="https://drive.google.com/file/d/1-hUAfoILHulC_c6FyptCY6iEk1RgpDv2/view">Certificado</a></span>
             </div>
-
-            <div class="content-divider reveal">
-                <div class="content-divider-line"></div>
-                <div class="content-divider-diamond"></div>
-                <div class="content-divider-line"></div>
+            <div class="curso-card">
+                <div class="curso-inst">Jala University</div>
+                <div class="curso-name">English for Specific Purpose for Software Engineers</div>
+                <div class="curso-year">2024</div>
+                <span class="curso-badge"><a target="_blank"
+                        href="https://drive.google.com/file/d/1wnSKA9RijfT7IgZmbDv5T3KaZ-GWXUHM/view">Certificado</a></span>
             </div>
-
-            <div class="content-section reveal" id="sec-seguranca">
-                <span class="section-eyebrow">02 · Segurança</span>
-                <h2 class="content-h2">JWT com RSA e <em>OAuth2 Resource Server</em></h2>
-
-                <p class="content-p">
-                    A camada de segurança é o coração do projeto. Em vez de usar uma biblioteca JWT
-                    de terceiros, a aplicação aproveita o suporte nativo do Spring Security 6 ao
-                    <strong>OAuth2 Resource Server</strong>, que já inclui o Nimbus JOSE para
-                    codificação e validação de tokens · sem dependências extras.
-                </p>
-
-                <p class="content-p">
-                    Os tokens são assinados com um par de chaves RSA (pública e privada) configuradas
-                    via <code>application.properties</code>. O <code>JwtEncoder</code> usa a chave
-                    privada para assinar o token no login, e o <code>JwtDecoder</code> usa a chave
-                    pública para validar cada requisição protegida · garantindo que nenhum token possa
-                    ser forjado sem acesso à chave privada.
-                </p>
-
-                <h3 class="content-h3">Configuração do SecurityFilterChain</h3>
-
-                <p class="content-p">
-                    O <code>SecurityConfig.java</code> define a cadeia de filtros com três regras
-                    centrais: o endpoint <code>POST /users</code> (cadastro) e <code>POST /login</code>
-                    são públicos; qualquer outra requisição exige autenticação. A sessão é configurada
-                    como <strong>STATELESS</strong> · sem cookies, sem estado no servidor · e o
-                    CSRF está desabilitado, adequado para APIs consumidas por clientes externos.
-                </p>
-
-                <div class="content-quote reveal">
-                    <p>Usar o OAuth2 Resource Server nativo do Spring Boot elimina a necessidade de
-                        filtros JWT customizados, tornando a configuração de segurança mais limpa,
-                        declarativa e alinhada com os padrões do ecossistema Spring.</p>
-                </div>
-
-                <h3 class="content-h3">Autorização por Escopo com <code>@PreAuthorize</code></h3>
-
-                <p class="content-p">
-                    O controle de acesso por role é feito via anotação <code>@PreAuthorize</code>
-                    habilitada com <code>@EnableMethodSecurity</code>. O endpoint
-                    <code>GET /users</code>, que lista todos os usuários, só pode ser acessado por
-                    quem possui <code>SCOPE_ADMIN</code> no token JWT. Usuários com role BASIC
-                    recebem <code>403 Forbidden</code> automaticamente.
-                </p>
+            <div class="curso-card">
+                <div class="curso-inst">Bradesco - Inglês</div>
+                <div class="curso-name">Social Interaction - Level B1 </div>
+                <div class="curso-year">2026 · 24 horas</div>
+                <span class="curso-badge"><a target="_blank"
+                        href="https://credentials.englishonline.britishcouncil.org/bfce7f17-72b1-49c2-ac5d-5120630c32c0#acc.yMFPZrlg">Certificado</a></span>
             </div>
-
-            <div class="content-divider reveal">
-                <div class="content-divider-line"></div>
-                <div class="content-divider-diamond"></div>
-                <div class="content-divider-line"></div>
+            <div class="curso-card">
+                <div class="curso-inst">Coursera — Meta</div>
+                <div class="curso-name">Introdução a Arduino</div>
+                <div class="curso-year">2026 · 20 horas</div>
+                <span class="curso-badge"><a target="_blank"
+                        href="https://lumina.ufrgs.br/mod/simplecertificate/verify.php?code=699106c4-2228-4fa8-a9d5-097500000000">Certificado</a></span>
             </div>
-
-            <div class="content-section reveal" id="sec-arquitetura">
-                <span class="section-eyebrow">03 · Arquitetura</span>
-                <h2 class="content-h2">Entidades, Repositórios <em>e Controllers</em></h2>
-
-                <p class="content-p">
-                    O projeto segue a arquitetura em camadas padrão do ecossistema Spring, com
-                    separação clara entre entidades JPA, repositórios Spring Data e controllers REST.
-                </p>
-
-                <h3 class="content-h3">Entidades JPA</h3>
-
-                <ul class="content-list reveal">
-                    <li>
-                        <strong>User (<code>tb_users</code>):</strong> identificado por UUID gerado
-                        automaticamente (<code>@GeneratedValue(strategy = GenerationType.UUID)</code>),
-                        com username único, senha hasheada com BCrypt e relacionamento
-                        <code>@ManyToMany</code> com roles via tabela de junção
-                        <code>tb_users_roles</code>. Inclui o método <code>isLoginCorrect()</code>
-                        que valida a senha usando o <code>PasswordEncoder</code> injetado.
-                    </li>
-                    <li>
-                        <strong>Role (<code>tb_roles</code>):</strong> enum interno
-                        <code>Values</code> com os valores ADMIN (id=1) e BASIC (id=2),
-                        permitindo referência tipada sem strings literais espalhadas pelo código.
-                    </li>
-                    <li>
-                        <strong>Comments (<code>tb_comments</code>):</strong> relacionado a
-                        <code>User</code> via <code>@ManyToOne</code>, com conteúdo textual e
-                        timestamp de criação gerado automaticamente pela anotação
-                        <code>@CreationTimestamp</code> do Hibernate.
-                    </li>
-                </ul>
-
-                <h3 class="content-h3">Controllers</h3>
-
-                <ul class="content-list reveal">
-                    <li>
-                        <strong>TokenController ·</strong> <code>POST /login</code>: recebe
-                        username e senha, valida contra o banco com BCrypt, monta os claims JWT
-                        (issuer, subject com UUID do usuário, expiração de 300 segundos e scope
-                        com as roles), assina com a chave privada RSA e retorna o token.
-                    </li>
-                    <li>
-                        <strong>UserController ·</strong> <code>POST /users</code> (público):
-                        cadastra novo usuário com role BASIC automaticamente. <code>GET /users</code>
-                        (apenas ADMIN): lista todos os usuários cadastrados.
-                    </li>
-                    <li>
-                        <strong>CommentsController ·</strong> <code>GET /feed</code>: retorna
-                        feed paginado e ordenado por data decrescente, com suporte a parâmetros
-                        <code>page</code> e <code>pageSize</code>. <code>POST /comments</code>:
-                        cria comentário vinculado ao usuário autenticado (UUID extraído do token JWT).
-                        <code>DELETE /comments/{id}</code>: permite que o autor delete seu próprio
-                        comentário · ou que um ADMIN delete qualquer comentário.
-                    </li>
-                </ul>
+            <div class="curso-card">
+                <div class="curso-inst">Universidade Federal do Rio Grande do Sul</div>
+                <div class="curso-name"> Spring Boot framework Swagger Docker Kubernetes K8s API RESTful JWT JUnit 5
+                    Mockito React JS</div>
+                <div class="curso-year">2026 · 54 horas</div>
+                <span class="curso-badge">Cursando</span>
             </div>
-
-            <div class="content-divider reveal">
-                <div class="content-divider-line"></div>
-                <div class="content-divider-diamond"></div>
-                <div class="content-divider-line"></div>
+            <div class="curso-card">
+                <div class="curso-inst">Wagner Gaspar</div>
+                <div class="curso-name">Programação C</div>
+                <div class="curso-year">2026 · 53 horas</div>
+                <span class="curso-badge">Cursando</span>
             </div>
-
-            <div class="content-section reveal" id="sec-infra">
-                <span class="section-eyebrow">04 · Infraestrutura</span>
-                <h2 class="content-h2">Docker, MySQL <em>e Ambiente Local</em></h2>
-
-                <p class="content-p">
-                    O banco de dados MySQL roda em um container Docker, eliminando a necessidade de
-                    instalação local e garantindo um ambiente isolado e reproduzível. A configuração
-                    do container é feita via <code>docker-compose.yml</code>, subindo o MySQL com as
-                    variáveis de ambiente necessárias para o Spring se conectar automaticamente.
-                </p>
-
-                <p class="content-p">
-                    O <strong>DataGrip</strong> foi utilizado como cliente de banco de dados para
-                    inspecionar as tabelas (<code>tb_users</code>, <code>tb_roles</code>,
-                    <code>tb_users_roles</code> e <code>tb_comments</code>), verificar os dados
-                    inseridos e validar os relacionamentos gerados pelo Hibernate.
-                </p>
-
-                <p class="content-p">
-                    O <strong>IntelliJ IDEA</strong> foi a IDE utilizada para o desenvolvimento.
-                    As chaves RSA (pública e privada) foram geradas via OpenSSL e referenciadas
-                    no <code>application.properties</code> pelas propriedades
-                    <code>jwt.public.key</code> e <code>jwt.private.key</code>.
-                </p>
-
-                <h3 class="content-h3">Inicialização Automática do Admin</h3>
-
-                <p class="content-p">
-                    O <code>AdminUserConfig.java</code> implementa <code>CommandLineRunner</code>,
-                    executando na inicialização da aplicação. Ele verifica se o usuário
-                    <code>admin</code> já existe no banco · se não existir, cria automaticamente
-                    com a role ADMIN e senha hasheada com BCrypt. Isso garante que o sistema sempre
-                    tenha um administrador disponível sem necessidade de seed manual.
-                </p>
-
-                <div class="content-img-wrap reveal">
-         
-                    <img src="img/img1.png" alt="Fluxo de login e token JWT" style="width:100%;border-radius:8px;"> 
-                    <div class="content-img-caption">
-                        Figura 1 · Fluxo de autenticação: POST /login retorna o JWT, que é usado
-                        como Bearer Token nas requisições subsequentes.
-                    </div>
-                </div>
-
-                <div class="content-img-wrap reveal">
-                    <img src="img/img2.png" alt="GET /feed paginado" style="width:100%;border-radius:8px;">
-                    <div class="content-img-caption">
-                        Figura 2 · GET /feed retornando comentários paginados ordenados por data,
-                        com metadados de paginação (página atual, total de páginas e total de itens).
-                    </div>
-                </div>
-            </div>
-
-            <div class="content-divider reveal">
-                <div class="content-divider-line"></div>
-                <div class="content-divider-diamond"></div>
-                <div class="content-divider-line"></div>
-            </div>
-
-            <div class="content-section reveal" id="sec-endpoints">
-                <span class="section-eyebrow">05 · Endpoints</span>
-                <h2 class="content-h2">Rotas e <em>Regras de Acesso</em></h2>
-
-                <ul class="content-list reveal">
-                    <li>
-                        <strong><code>POST /users</code></strong> · público. Cria novo usuário
-                        com role BASIC. Retorna <code>422</code> se o username já existir.
-                    </li>
-                    <li>
-                        <strong><code>POST /login</code></strong> · público. Valida credenciais
-                        e retorna o JWT com tempo de expiração de 300 segundos.
-                    </li>
-                    <li>
-                        <strong><code>GET /users</code></strong> · apenas <code>SCOPE_ADMIN</code>.
-                        Lista todos os usuários cadastrados.
-                    </li>
-                    <li>
-                        <strong><code>GET /feed</code></strong> · autenticado. Retorna feed
-                        paginado de comentários, ordenado do mais recente para o mais antigo.
-                        Parâmetros: <code>page</code> (default 0) e <code>pageSize</code> (default 10).
-                    </li>
-                    <li>
-                        <strong><code>POST /comments</code></strong> · autenticado. Cria um
-                        comentário vinculado ao usuário dono do token JWT.
-                    </li>
-                    <li>
-                        <strong><code>DELETE /comments/{id}</code></strong> · autenticado. O
-                        autor pode deletar o próprio comentário; ADMIN pode deletar qualquer um.
-                        Retorna <code>403 Forbidden</code> se o usuário não tiver permissão.
-                    </li>
-                </ul>
-            </div>
-
-            <div class="content-divider reveal">
-                <div class="content-divider-line"></div>
-                <div class="content-divider-diamond"></div>
-                <div class="content-divider-line"></div>
-            </div>
-
-            <div class="content-section reveal" id="sec-aprendizados">
-                <span class="section-eyebrow">06 · Reflexões</span>
-                <h2 class="content-h2">O que aprendi com <em>este projeto</em></h2>
-
-                <p class="content-p">
-                    Este projeto foi o primeiro contato prático com Spring Security 6 e deixou claro
-                    o quanto a framework evoluiu. A configuração baseada em componentes · sem herança
-                    de classes depreciadas · e o suporte nativo ao OAuth2 Resource Server tornam a
-                    implementação de JWT muito mais simples e alinhada com padrões da indústria do
-                    que nas versões anteriores.
-                </p>
-
-                <p class="content-p">
-                    Entender o fluxo completo de autenticação · desde a geração do par de chaves RSA,
-                    passando pela emissão do JWT com claims tipados, até a validação automática em
-                    cada requisição pelo <code>JwtDecoder</code> · solidificou conceitos fundamentais
-                    de segurança em APIs REST que são exigidos no mercado de trabalho.
-                </p>
-
-                <p class="content-p">
-                    A adaptação do projeto original (tweets → comments) reforçou a capacidade de
-                    aplicar um tutorial a um contexto diferente, entendendo o que pode ser reaproveitado
-                    e o que precisa ser redesenhado · uma habilidade essencial no dia a dia do
-                    desenvolvimento profissional.
-                </p>
-            </div>
-
-            <div class="content-divider reveal">
-                <div class="content-divider-line"></div>
-                <div class="content-divider-diamond"></div>
-                <div class="content-divider-line"></div>
-            </div>
-
-            <div class="content-section reveal" id="sec-creditos">
-                <span class="section-eyebrow">07 · Créditos</span>
-                <h2 class="content-h2">Baseado em <em>Tutorial</em></h2>
-                <p class="content-p">
-                    Este projeto foi desenvolvido seguindo o tutorial de
-                    <strong>BuildRun Tech</strong>, disponível no canal
-                    <a href="https://youtu.be/nDst-CRKt_k" target="_blank" rel="noopener">BuildRun Tech  YouTube</a>.
-                    O repositório original está em
-                    <a href="https://github.com/buildrun-tech/buildrun-spring-security-jwt-example" target="_blank"
-                        rel="noopener">buildrun-tech/buildrun-spring-security-jwt-example</a>.
-                    O conteúdo foi estudado, adaptado (tweets → comments / fórum) e expandido
-                    com Docker, MySQL e DataGrip durante o processo de aprendizado.
-                </p>
-            </div>
-
-        </article>
-
-        <aside class="article-sidebar reveal">
-
-            <div class="sidebar-block">
-                <span class="sidebar-label">Neste Projeto</span>
-                <ul class="toc-list">
-                    <li><a href="#sec-visao" class="toc-link">01 · Visão Geral</a></li>
-                    <li><a href="#sec-seguranca" class="toc-link">02 · Segurança</a></li>
-                    <li><a href="#sec-arquitetura" class="toc-link">03 · Arquitetura</a></li>
-                    <li><a href="#sec-infra" class="toc-link">04 · Infraestrutura</a></li>
-                    <li><a href="#sec-endpoints" class="toc-link">05 · Endpoints</a></li>
-                    <li><a href="#sec-aprendizados" class="toc-link">06 · Reflexões</a></li>
-                    <li><a href="#sec-creditos" class="toc-link">07 · Créditos</a></li>
-                </ul>
-            </div>
-
-            <div class="sidebar-block">
-                <span class="sidebar-label">Links</span>
-                <div class="sidebar-links">
-                    <a href="https://github.com/MateusCruzTech" target="_blank" rel="noopener" class="sidebar-link">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
-                        </svg>
-                        GitHub
-                    </a>
-                    <a href="https://www.linkedin.com/m/in/mateustechcruz" target="_blank" rel="noopener"
-                        class="sidebar-link">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                        </svg>
-                        LinkedIn
-                    </a>
-                    <a href="../../../index.html" class="sidebar-link">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        Voltar ao Portfólio
-                    </a>
-                </div>
-            </div>
-
-            <div class="sidebar-block">
-                <span class="sidebar-label">Stack Técnica</span>
-                <div class="sidebar-pills">
-                    <span class="sidebar-pill">Java 17+</span>
-                    <span class="sidebar-pill">Spring Boot 3</span>
-                    <span class="sidebar-pill">Spring Security 6</span>
-                    <span class="sidebar-pill">OAuth2 Resource Server</span>
-                    <span class="sidebar-pill">JWT (RSA)</span>
-                    <span class="sidebar-pill">Spring Data JPA</span>
-                    <span class="sidebar-pill">MySQL</span>
-                    <span class="sidebar-pill">Docker</span>
-                    <span class="sidebar-pill">DataGrip</span>
-                    <span class="sidebar-pill">IntelliJ IDEA</span>
-                </div>
-            </div>
-
-            <div class="sidebar-block">
-                <span class="sidebar-label">Baseado em Tutorial</span>
-                <div class="sidebar-links">
-                    <a href="https://youtu.be/nDst-CRKt_k" target="_blank" rel="noopener" class="sidebar-link">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-                        </svg>
-                        BuildRun Tech — @Build & Run
-                    </a>
-                </div>
-            </div>
-
-        </aside>
-
-    </div>
-
-    <a href="../../project_page/index.html" class="next-project">
-        <div class="next-inner">
-            <div>
-                <span class="next-label">Ver Outros</span>
-                <div class="next-title">Explorar a <em>Galeria de Projetos</em></div>
-            </div>
-            <div class="next-arrow">→</div>
         </div>
-    </a>
+    </section>
 
-  
+
+    <section id="apresentacao">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Perfil</span>
+            <h2 class="section-title">Apresentação <em>Pessoal</em></h2>
+            <div class="divider">
+                <div class="divider-line"></div>
+                <div class="divider-diamond"></div>
+                <div class="divider-line"></div>
+            </div>
+        </div>
+
+        <div class="apresentacao-inner">
+
+            <div class="apresentacao-perfil reveal">
+                <div class="perfil-foto">
+                    <!--  <img src="" alt=""> -->
+                    <span class="portrait-initial">MC</span>
+                </div>
+                <div class="perfil-info">
+                    <div class="perfil-nome">Mateus Cruz</div>
+                    <div class="perfil-cargo">Estagiário de TI · Desenvolvedor Back-end</div>
+                    <div class="perfil-tags">
+                        <span>Cloud / DevOps</span>
+                        <span>Docker & Linux</span>
+                        <span>Java Spring</span>
+                        <span>Redes</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="apresentacao-text reveal">
+                <p class="apresentacao-body">
+                    Estagiário de TI na Faculdade Ciências Médicas (FCMMG / FELUMA) e estudante de Ciência da Computação com base em desenvolvimento back-end e suporte técnico. Gosto de atuar na infraestrutura dos sistemas, otimizando ambientes e garantindo que o software rode com segurança e performance. Atualmente, estou focado em minha transição para arquitetura Cloud e DevOps.
+                </p>
+
+                <div class="apresentacao-highlights">
+                    <div class="highlight">
+                        <div class="highlight-title">Por que Ciência da Computação</div>
+                        <div class="highlight-text">A possibilidade de construir sistemas que resolvem
+                            problemas concretos com código limpo e bem pensado é o que me motiva todos
+                            os dias, seja no back-end ou na análise de dados.
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-title">Minha Abordagem</div>
+                        <div class="highlight-text">Prefiro entender o fundamento antes de usar a
+                            ferramenta. Cada projeto é uma oportunidade de aprofundar tanto o
+                            conhecimento técnico quanto a capacidade de comunicar soluções com clareza.
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-title">Momento Atual</div>
+                        <div class="highlight-text">
+                            Atuando como Estagiário de TI na Faculdade Ciências Médicas de MG (FELUMA), onde consolido
+                            minha base prática em infraestrutura e hardware, enquanto continuo aprimorando minhas
+                            habilidades em engenharia de software e backend.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <footer>
         <div class="footer-top">
             <div>
@@ -568,7 +604,7 @@
         </div>
     </footer>
 
-    <script src="../global/script.js"></script>
+    <script src="/pages/main/script.js"></script>
 </body>
 
 </html>
